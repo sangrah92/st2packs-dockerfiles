@@ -19,7 +19,7 @@ ONBUILD RUN docker build --build-arg  PACKS="https://PRIVATE-TOKEN:_bgZtM89nRXUc
 	https://PRIVATE-TOKEN:_bgZtM89nRXUcDZfzmmJ@scm.dimensiondata.com/vnext/StackStorm-Packs/ntt_msdc.git \
 	https://PRIVATE-TOKEN:_bgZtM89nRXUcDZfzmmJ@scm.dimensiondata.com/vnext/StackStorm-Packs/ntt_ivr.git	\
 	https://PRIVATE-TOKEN:_bgZtM89nRXUcDZfzmmJ@scm.dimensiondata.com/vnext/StackStorm-Packs/ntt_itsm.git \
-	https://PRIVATE-TOKEN:_bgZtM89nRXUcDZfzmmJ@scm.dimensiondata.com/vnext/StackStorm-Packs/ntt_insite_msen.git" -t stackstorms/st2packs:latest .
+	https://PRIVATE-TOKEN:_bgZtM89nRXUcDZfzmmJ@scm.dimensiondata.com/vnext/StackStorm-Packs/ntt_insite_msen.git" -t stackstorms/custom_st2packs:latest .
 
 
 
